@@ -15,10 +15,7 @@ contract CallMsg{
         console.logBytes(msg.data);
         console.logAddress(tx.origin);
         console.logAddress(address(this));
-        //下面的内容再第二节课演示
-        // console.logBytes4(CallMsg.msgFrom.selector);
-        // console.logBytes(abi.encodeWithSignature("msgFrom()"));
-        // console.logBytes4(bytes4(keccak256("msgFrom()")));
+
     }
 
 }
